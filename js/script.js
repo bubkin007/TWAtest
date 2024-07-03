@@ -20,8 +20,8 @@ function loadJS(FILE_URL, async = true) {
     console.log("Error on loading file", ev);
   });
 }
-loadJS("file1_path", true);
+//loadJS("file1_path", true);
 
 // If we set async false, file2 is loaded and executed first, then file3 will be loaded 
-loadJS("file2_path", false); 
-loadJS("file3_path", true);
+//loadJS("file2_path", false); 
+//loadJS("file3_path", true);
