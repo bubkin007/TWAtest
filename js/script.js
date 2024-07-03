@@ -5,7 +5,7 @@ function loadJS(FILE_URL, async = true) {
   scriptEle.setAttribute("type", "text/javascript");
   scriptEle.setAttribute("async", async);
 
-  document.body.appendChild(scriptEle);
+  document.head.appendChild(scriptEle);
 
   // success event 
   scriptEle.addEventListener("load", () => {
