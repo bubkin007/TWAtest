@@ -1,14 +1,3 @@
-function onTelegramAuth(user) {
-    alert('Logged in as ' + user.first_name + ' ' + user.last_name + ' (' + user.id + (user.username ? ', @' + user.username : '') + ')');
-  }
-
-
-function TWidgetLogin(){
-TWidgetLogin.init('widget_login', 547043436, {"origin":"https:\/\/core.telegram.org","embed":1,"return_to":"https:\/\/core.telegram.org\/widgets\/login"}, false);
-}
-
-
-
 function loadJS(FILE_URL, async = true) {
   let scriptEle = document.createElement("script");
 
